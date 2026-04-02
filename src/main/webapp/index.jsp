@@ -2,18 +2,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Accueil</title>
 </head>
 <body>
 <%! public String enItalic(String message){
     return ("<p style='font-style: italic'>"+message+"</p>");
 } %>
-<h1><%= "Hello World!" %>
-</h1>
+<h1><%= "Hello World!" %></h1>
 <%= enItalic("Bonjour")%>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 <a href="TP2.jsp">TP1</a>
 <a href="TP3.jsp">TP2</a>
+<a href="login.jsp">🔐 Connexion (TP6)</a>
 </body>
 </html>
