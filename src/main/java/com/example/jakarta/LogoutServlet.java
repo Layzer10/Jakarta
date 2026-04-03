@@ -22,7 +22,7 @@ public class LogoutServlet extends HttpServlet {
             String username = (String) session.getAttribute("username");
             System.out.println("Déconnexion de : " + username);
 
-            session.invalidate(); // 💥 Détruit la session et tous ses attributs
+            session.invalidate();
         }
 
         // Redirection vers la page de connexion
